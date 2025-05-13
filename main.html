@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Final Result Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <!-- the entire body must be written by student -->
+    <script type="text/javascript">
+        // Take the first input and convert to number
+        const firstInput = parseInt(prompt("Enter the first number:"));
+        
+        // Multiply it by 2
+        const firstResult = firstInput * 2;
+        
+        // Take the second input and convert to number
+        const secondInput = parseInt(prompt("Enter the second number:"));
+        
+        // Add second input to first result
+        const finalResult = firstResult + secondInput;
+        
+        // Display the result
+        alert("The final result is: " + finalResult);
+    </script>
 </body>
 
 </html>
+
